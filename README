@@ -1,0 +1,27 @@
+SilverStripe Google +1 Module
+=============================
+
+Maintainer Contacts
+-------------------
+* Custer Frianeza (<cfrianeza@gmail.com>)
+
+Requirements
+------------
+* SilverStripe 2.4
+
+Installation
+------------
+
+1. Place this directory in the root of your SilverStripe installation.
+2. Visit yoursite.com/dev/build to rebuild the database.
+
+Usage Overview
+--------------
+On dev/build, additional fields will be added to the class Page - HasGooglePlusOne which is a
+Boolean, and PlusOneButtonSize, which is of Enum data type. These added fields can be found in
+under the Google Plus One tab in the admin. If you wish to display a Google +1 in your page, just
+check on the tick box 'Use Google Plus One on this page?'. Then, the Google Plus One Button Sizes
+field will be enabled so you can select a size for the button. As you hover on each button sizes,
+a corresponding image will be displayed on the right side of the field. After the page has been saved
+and published, the button can be seen after you call the ImplementsGooglePlusOne method in your template.
+e.g. <div class="sample-class">$ImplementsGooglePlusOne</div>

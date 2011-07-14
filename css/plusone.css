@@ -1,0 +1,8 @@
+ul#Form_EditForm_PlusOneButtonSize {position:relative;width:220px;}
+ul#Form_EditForm_PlusOneButtonSize li {width:105px;}
+ul#Form_EditForm_PlusOneButtonSize li img {background:#888;border:1px solid #000;display:none;padding:10px;position:absolute;}
+ul#Form_EditForm_PlusOneButtonSize li.valstandard img {right:-44px;top:15px;}
+ul#Form_EditForm_PlusOneButtonSize li.valsmall img {right:-31px;top:15px;}
+ul#Form_EditForm_PlusOneButtonSize li.valmedium img {right:-43px;top:17px;}
+ul#Form_EditForm_PlusOneButtonSize li.valtall img {right:-14px;top:-7px;}
+#Root_Content_set_GooglePlusOne .middleColumn {width:140px;}
